@@ -27,3 +27,27 @@ export type Cluster = {
   sentimentScore: number; // -1 to 1
   keyKeywords: string[];
 };
+
+export type TagCategory = 'Culture' | 'Academics' | 'Events' | 'Placements' | 'Administration';
+
+export interface CampusEntity {
+  id: string;
+  name: string;
+  category: TagCategory;
+  description: string;
+  foundedYear?: number;
+}
+
+export interface GraphRelation {
+  sourceId: string;
+  targetId: string;
+  relationType: 'sponsors' | 'organizes' | 'partners_with' | 'precedes';
+  weight: number;
+}
+
+export interface ArchiveFilter {
+  yearRange?: [number, number];
+  sentiment?: Sentiment;
+  keywords?: string[];
+  role?: string;
+}
