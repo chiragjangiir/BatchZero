@@ -1,0 +1,43 @@
+{
+  "campusEntities": [
+    {
+      "id": "entity-001",
+      "name": "Developers Student Club",
+      "category": "Culture",
+      "description": "Student-led technical chapter focused on web and cloud architectures.",
+      "foundedYear": 2018
+    },
+    {
+      "id": "entity-002",
+      "name": "Annual Placement Cell",
+      "category": "Placements",
+      "description": "Central administration and student coordination team for campus recruitment.",
+      "foundedYear": 2012
+    },
+    {
+      "id": "entity-003",
+      "name": "InnovateX Hackathon",
+      "category": "Events",
+      "description": "36-hour flagship annual student software hackathon.",
+      "foundedYear": 2021
+    }
+  ],
+  "sampleStories": [
+    {
+      "id": "story-001",
+      "role": "Lead Organizer",
+      "activityType": "Hackathon",
+      "story": "Coordinating venue Wi-Fi bandwidth with the university NOC required 3 escalating formal approvals, but resolved 2 hours before opening ceremony.",
+      "sentiment": "Excited",
+      "tags": ["infrastructure", "wifi", "logistics"]
+    },
+    {
+      "id": "story-002",
+      "role": "Placement Coordinator",
+      "activityType": "Placement Drive",
+      "story": "Transitioning interview scheduling from paper manifests to an automated digital queue cut student waiting intervals by 65%.",
+      "sentiment": "Positive",
+      "tags": ["automation", "interviews", "recruitment"]
+    }
+  ]
+}
