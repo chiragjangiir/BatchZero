@@ -1,0 +1,16 @@
+{
+  "placementBatches": [
+    {
+      "year": 2025,
+      "totalOffers": 850,
+      "medianLpa": 12.5,
+      "topSector": "Software Engineering"
+    },
+    {
+      "year": 2026,
+      "totalOffers": 920,
+      "medianLpa": 14.0,
+      "topSector": "AI & Cloud Infrastructure"
+    }
+  ]
+}
