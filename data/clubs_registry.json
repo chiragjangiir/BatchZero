@@ -1,0 +1,25 @@
+{
+  "clubs": [
+    {
+      "id": "club-01",
+      "name": "Robotics & Automation Society",
+      "category": "Technology",
+      "activeMembers": 45,
+      "leadContact": "ras-lead@campus.edu"
+    },
+    {
+      "id": "club-02",
+      "name": "Literary & Debating Society",
+      "category": "Culture",
+      "activeMembers": 30,
+      "leadContact": "litdeb@campus.edu"
+    },
+    {
+      "id": "club-03",
+      "name": "Open Source Initiative",
+      "category": "Technology",
+      "activeMembers": 60,
+      "leadContact": "foss@campus.edu"
+    }
+  ]
+}
