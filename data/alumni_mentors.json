@@ -1,0 +1,18 @@
+{
+  "mentors": [
+    {
+      "id": "mentor-101",
+      "name": "Sarah Connor",
+      "company": "Cyberdyne Systems",
+      "role": "Security Architect",
+      "gradYear": 2021
+    },
+    {
+      "id": "mentor-102",
+      "name": "Alex Chen",
+      "company": "DeepMind",
+      "role": "Research Scientist",
+      "gradYear": 2019
+    }
+  ]
+}
